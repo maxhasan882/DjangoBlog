@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 4.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================ -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Advanced Cards | Materialize - Material Design Admin Template</title>
+    <!-- Favicons-->
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#00bcd4">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <!-- For Windows Phone -->
+    <!-- CORE CSS-->
+    <link href="css/themes/collapsible-menu/materialize.css" type="text/css" rel="stylesheet">
+    <link href="css/themes/collapsible-menu/style.css" type="text/css" rel="stylesheet">
+    <!-- Custome CSS-->
+    <link href="css/custom/custom.css" type="text/css" rel="stylesheet">
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="vendors/prism/prism.css" type="text/css" rel="stylesheet">
+    <link href="vendors/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet">
+    <link href="vendors/flag-icon/css/flag-icon.min.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start Page Loading -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Page Loading -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- START HEADER -->
+    <header id="header" class="page-topbar">
+      <!-- start header nav-->
+      <div class="navbar-fixed">
+        <nav class="navbar-color gradient-45deg-purple-deep-orange gradient-shadow">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo darken-1">
+                <img src="images/logo/materialize-logo.png" alt="materialize logo">
+                <span class="logo-text hide-on-med-and-down">Materialize</span>
+              </a>
+            <div class="header-search-wrapper hide-on-med-and-down sideNav-lock">
+              <i class="material-icons">search</i>
+              <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Explore Materialize" />
+            </div>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button" data-activates="translation-dropdown">
+                  <span class="flag-icon flag-icon-gb"></span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen">
+                  <i class="material-icons">settings_overscan</i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown">
+                  <i class="material-icons">notifications_none
+                    <small class="notification-badge">5</small>
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="waves-effect waves-block waves-light profile-button" data-activates="profile-dropdown">
+                  <span class="avatar-status avatar-online">
+                    <img src="images/avatar/avatar-7.png" alt="avatar">
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse">
+                  <i class="material-icons">format_indent_increase</i>
+                </a>
+              </li>
+            </ul>
+            <!-- translation-button -->
+            <ul id="translation-dropdown" class="dropdown-content">
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-gb"></i> English</a>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-fr"></i> French</a>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-cn"></i> Chinese</a>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-1">
+                  <i class="flag-icon flag-icon-de"></i> German</a>
+              </li>
+            </ul>
+            <!-- notifications-dropdown -->
+            <ul id="notifications-dropdown" class="dropdown-content">
+              <li>
+                <h6>NOTIFICATIONS
+                  <span class="new badge">5</span>
+                </h6>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle cyan small">add_shopping_cart</span> A new order has been placed!</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">2 hours ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle red small">stars</span> Completed the task</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 days ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle teal small">settings</span> Settings updated</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">4 days ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle deep-orange small">today</span> Director meeting started</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">6 days ago</time>
+              </li>
+              <li>
+                <a href="#!" class="grey-text text-darken-2">
+                  <span class="material-icons icon-bg-circle amber small">trending_up</span> Generate monthly report</a>
+                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">1 week ago</time>
+              </li>
+            </ul>
+            <!-- profile-dropdown -->
+            <ul id="profile-dropdown" class="dropdown-content">
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">face</i> Profile</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">settings</i> Settings</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">live_help</i> Help</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">lock_outline</i> Lock</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text-darken-1">
+                  <i class="material-icons">keyboard_tab</i> Logout</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+
+
+    <div id="card-reveal" class="section">
+                  <div class="col s12">
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="card">
+                          <div class="card-image single-post-image">
+                          <img src="images/gallary/13.png">
+                        </div>
+                        <div class="card-content">
+                          <h5 class="center font-weight-400">EMMA STONE</h5>
+                          <p class="center">Designer @ D&G</p>
+                        <div class="divider mt-5"></div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div id="main">
+      <!-- START WRAPPER -->
+      <div class="wrapper">
+        <!-- START LEFT SIDEBAR NAV-->
+        <!-- END LEFT SIDEBAR NAV-->
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- START CONTENT -->
+        <section id="content">
+          <!--start container-->
+          <div class="container">
+            <div id="profile-page" class="section">
+              <!-- profile-page-header -->
+              <div id="profile-page-header" class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/gallary/23.png" alt="user background">
+                </div>
+                <figure class="card-profile-image">
+                  <img src="images/avatar/avatar-7.png" alt="profile image" class="circle z-depth-2 responsive-img activator gradient-45deg-light-blue-cyan gradient-shadow">
+                </figure>
+                <div class="card-content">
+                  <div class="row pt-2">
+                    <div class="col s12 m3 offset-m2">
+                      <h4 class="card-title grey-text text-darken-4">Roger Waters</h4>
+                      <p class="medium-small grey-text">Project Manager</p>
+                    </div>
+                    <div class="col s12 m2 center-align">
+                      <h4 class="card-title grey-text text-darken-4">10+</h4>
+                      <p class="medium-small grey-text">Work Experience</p>
+                    </div>
+                    <div class="col s12 m2 center-align">
+                      <h4 class="card-title grey-text text-darken-4">6</h4>
+                      <p class="medium-small grey-text">Completed Projects</p>
+                    </div>
+                    <div class="col s12 m2 center-align">
+                      <h4 class="card-title grey-text text-darken-4">$ 1,253,000</h4>
+                      <p class="medium-small grey-text">Busness Profit</p>
+                    </div>
+                    <div class="col s12 m1 right-align">
+                      <a class="btn-floating activator waves-effect waves-light rec accent-2 right">
+                        <i class="material-icons">perm_identity</i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-reveal">
+                  <p>
+                    <span class="card-title grey-text text-darken-4">Roger Waters
+                      <i class="material-icons right">close</i>
+                    </span>
+                    <span>
+                      <i class="material-icons cyan-text text-darken-2">perm_identity</i> Project Manager</span>
+                  </p>
+                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                  <p>
+                    <i class="material-icons cyan-text text-darken-2">perm_phone_msg</i> +1 (612) 222 8989</p>
+                  <p>
+                    <i class="material-icons cyan-text text-darken-2">email</i> mail@domain.com</p>
+                  <p>
+                    <i class="material-icons cyan-text text-darken-2">cake</i> 18th June 1990</p>
+                  <p>
+                    <i class="material-icons cyan-text text-darken-2">airplanemode_active</i> BAR - AUS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+
+    
+        <footer class="page-footer gradient-45deg-purple-deep-orange">
+          <div class="footer-copyright">
+            <div class="container">
+              <span>Copyright ©
+                <script type="text/javascript">
+                  document.write(new Date().getFullYear());
+                </script> <a class="grey-text text-lighten-4" href="http://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" target="_blank">PIXINVENT</a> All rights reserved.</span>
+              <span class="right hide-on-small-only"> Design and Developed by <a class="grey-text text-lighten-4" href="https://pixinvent.com/">PIXINVENT</a></span>
+            </div>
+          </div>
+        </footer>
+        <!-- END FOOTER -->
+        <!-- ================================================
+    Scripts
+    ================================================ -->
+        <!-- jQuery Library -->
+        <script type="text/javascript" src="vendors/jquery-3.2.1.min.js"></script>
+        <!--materialize js-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!--prism-->
+        <script type="text/javascript" src="vendors/prism/prism.js"></script>
+        <!--scrollbar-->
+        <script type="text/javascript" src="vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <!--custom-script.js - Add your own theme custom JS-->
+        <script type="text/javascript" src="js/custom-script.js"></script>
+        <!-- chartjs -->
+        <script type="text/javascript" src="vendors/chartjs/chart.min.js"></script>
+        <!-- chartist -->
+        <script type="text/javascript" src="vendors/chartist-js/chartist.min.js"></script>
+        <script type="text/javascript" src="js/scripts/cards-extended.js"></script>
+  </body>
+</html>
