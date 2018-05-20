@@ -4,4 +4,7 @@ def home(request):
     return render(request, 'home.html')
 
 def GetSinglePost(request):
-    return render(request, 'Prepare.html')
+    return render(request, 'single.html')
+
+def getProfile(request):
+    return render(request, 'profileView.html')
